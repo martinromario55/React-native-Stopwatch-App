@@ -34,7 +34,7 @@ const Stopwatch = () => {
     setIsRunning(previousState => !previousState)
   }, [isRunning])
 
-  console.log(displayTime(time))
+//   console.log(displayTime(time))
   return (
     <SafeAreaView style={styles.container}>
       {Platform.OS === 'ios' && <StatusBar style="light" />}
